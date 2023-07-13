@@ -14,3 +14,4 @@ class TaskView(viewsets.ModelViewSet):
         super().destroy(*args, **kwargs)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
+
